@@ -1,0 +1,9 @@
+.todo-list {
+  & > li {
+    list-style: none;
+    cursor: pointer;
+  }
+  & > li.completed {
+    text-decoration: line-through;
+  }
+}
